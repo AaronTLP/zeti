@@ -1,30 +1,28 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { useLocation } from '@reach/router'
-import { getSrc } from 'gatsby-plugin-image'
 import * as seoData from '../../settings/seo.json'
 
 export default function DefaultHead({ data, children }) {
   const { pathname } = useLocation()
-  const metadata = { ...seoData, siteUrl: process.env.GATSBY_APP_URL }
+  const metadata = { ...seoData, siteUrl: process.env.GATSBY_APP_URL ?? "https://www.zeti.group" }
   const metaDescription = data.description || metadata.description
   const title = data.title || metadata.title
   const image = data?.ogimage?.childImageSharp
-    ? `${metadata.siteUrl}${getSrc(data.ogimage)}`
+    ? `${metadata.siteUrl}${data?.ogimage?.childImageSharp?.gatsbyImageData?.images.fallback.src}`
     : `${metadata.siteUrl}${metadata.image}`
 
-  const fullTitle = `${title} ${metadata.separator} ${metadata.baseTitle}`
 
   return (
     <>
-      <title id="t">{fullTitle}</title>
+      <title id="t">{title}</title>
       <meta id="description" name="description" content={metaDescription} />
-      <meta id="ot" property="og:title" content={fullTitle} />
+      <meta id="ot" property="og:title" content={title} />
       <meta id="ou" property="og:url" content={`${metadata.siteUrl}${pathname}`} />
       <meta id="oty" property="og:type" content="website" />
       <meta id="oi" property="og:image" content={image} />
       <meta id="od" property="og:description" content={metaDescription} />
-      <meta id="tt" name="twitter:title" content={fullTitle} />
+      <meta id="tt" name="twitter:title" content={title} />
       <meta id="ti" name="twitter:image" content={image} />
       <meta id="td" name="twitter:description" content={metaDescription} />
       {children}

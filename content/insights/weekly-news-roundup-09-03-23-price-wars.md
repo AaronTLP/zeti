@@ -2,14 +2,14 @@
 id: TDG6qeVdQ
 type: post
 layout: post
-title: "Weekly News Roundup: Price Wars "
+title: "Price Wars "
 permalink: /insights/weekly-news-roundup-09-03-23-price-wars/
-thumbnail: ""
+thumbnail: /img/michal-parzuchowski-u8n_o7req7o-unsplash.jpg
 date: 2023-03-09T00:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/mask.jpg
 ---
 **Overview**
 

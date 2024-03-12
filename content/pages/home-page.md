@@ -20,13 +20,8 @@ blocks:
             url: /contact-us/
     image: /img/hyundai-motor-group-jitbid8yjue-unsplash.jpg
   - type: video
-    video: <div style="padding:56.25% 0 0 0;position:relative;"><iframe
-      src="https://player.vimeo.com/video/833246997?h=319f2b1d72&title=0&byline=0&portrait=0"
-      style="position:absolute;top:0;left:0;width:100%;height:100%;"
-      frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
-      allowfullscreen></iframe></div><script
-      src="https://player.vimeo.com/api/player.js"></script>
-    variant: Embed
+    video: /img/What_is_Zeti_Website.mp4
+    variant: Vimeo
   - type: tabs
     variant: default
     intro:
@@ -44,7 +39,7 @@ blocks:
               fleet**
 
 
-              We're disrupting traditional auto finance and helping forward-thinking fleet operators convert to electric vehicles by making it as simple, easy and transparent as paying for a utility.
+              We're evolving traditional auto finance and helping forward-thinking fleet operators convert to electric vehicles by making it as simple, easy and transparent as paying for a utility.
             buttons:
               - button:
                   variant: arrow
@@ -65,7 +60,7 @@ blocks:
               - button:
                   variant: default
                   label: Find out more
-                  url: /financiers/
+                  url: https://www.zeti.co.uk/lenders/
       - tab:
           heading: For Manufacturers
           image: /img/shutterstock_749339836.jpg
@@ -98,16 +93,6 @@ blocks:
     list:
       - list_item:
           rich_editor: >-
-            "Zeti are a bridge between Breathe and the investment funds. We have
-            an ambitious target to scale 10,000 vehicles across the UK so we
-            really need players like Zeti who can provide us with security and a
-            base of information."
-
-
-            \- Jeff Davis, Breathe COO
-          image: /img/quotation.png
-      - list_item:
-          rich_editor: >-
             "A particular benefit of Zeti's platform is the pooling of vehicle
             mileage; with a contracted aggregate mileage across all vehicles, we
             don’t need to juggle individual cabs to a fixed mileage or end
@@ -116,6 +101,19 @@ blocks:
 
             \- Asher Moses, Sherbet CEO
           image: /img/quotation.png
+      - list_item:
+          rich_editor: >-
+            "As the UK's largest private hire fleet, we are tech-enabled and
+            growing rapidly. Zeti's fintech platform gives us deep real-time
+            insights into our assets' financing which is valuable data we will
+            use to fuel our expansion beyond our 5000-strong zero-emission fleet
+            in London. We are delighted to partner with Zeti for their financial
+            technology and the MEEF fund to accelerate the roll out of clean
+            vehicles in London.”
+
+
+            \- Gurinder Dhillon, Director, Otto Car
+          image: /img/quotation.png
   - type: slider
     variant: default
     intro:
@@ -123,14 +121,14 @@ blocks:
     slider:
       - slide:
           main:
-            rich_editor: We’ve been working with customers to enable clean vehicle
-              deployment across the UK.
+            rich_editor: We’ve been working with customers to enable the deployment of zero
+              and ultra-low emission vehicles.
             heading: vehicles financed to date
             buttons: []
           image: ""
           variant: statistic
           statistic:
-            stat: 40
+            stat: 44
             text: m
             pretext: $
       - slide:
@@ -143,7 +141,8 @@ blocks:
               *\*﻿savings at tailpipe ([US EPA](https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator))*
           image: /img/tezos-wpn1xnccgpw-unsplash.jpg
           statistic:
-            stat: 5
+            automated_source: carbon
+            stat: 6
             text: m kg
           variant: statistic
       - slide:
@@ -158,6 +157,7 @@ blocks:
           statistic:
             stat: 14000
             text: " kg"
+            automated_source: nox
           variant: statistic
   - type: logo_grid
     intro:
@@ -189,15 +189,17 @@ blocks:
         image_dark: /img/gravis-black.png
       - image_light: /img/bvrla.png
         image_dark: /img/bvrla-logo.png
-      - image_light: /img/octopus-logo-oi-white.svg
-        image_dark: /img/octopus-investments-logo-vector.png
       - image_light: /img/geotab-white-logo.png
         image_dark: /img/geotab.png
-      - image_light: /img/sherbet-white.png
-        image_dark: /img/cropped-sherbet-wordmark-rgb-black.png
+      - image_light: /img/innovate-finance-white.png
+        image_dark: /img/1200px-innovate_finance.png
+      - image_light: /img/fintech-innovation-lab-white.png
+        image_dark: /img/fintechlabnewyork.png
     variant: Slider
 seo:
-  ogimage: /img/3.png
-  title: This is the home page
-  description: "This is a description of the home page "
+  ogimage: /img/ZetiSocialCard.png
+  title: Zeti | Revolutionizing transport finance for good
+  description: At Zeti we are revolutionizing transport finance for good. We help
+    fleets convert to EVs by making it as simple, easy and transparent as paying
+    for a utility with our patent-pending pay-per-mile financial technology.
 ---

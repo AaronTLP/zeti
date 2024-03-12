@@ -47,6 +47,12 @@ export const Heading = {
   widget: 'string',
   required: false,
 };
+export const HubspotFormId = {
+  label: 'Hubspot Form Id',
+  name: 'hubspot_contact_form_id',
+  widget: 'string',
+  required: false,
+};
 
 export const RichEditor = {
   label: 'Rich Editor',
@@ -93,6 +99,33 @@ export const Intro = {
   ],
 }
 
+export const HeadingImage = {
+  label: 'Heading Image',
+  name: 'heading_image',
+  required: false,
+  widget: 'object',
+  fields: [
+    {
+      label: 'Link',
+      name: 'link',
+      widget: 'string',
+      required: false,
+    },
+    {
+      label: 'Image (Dark Theme)',
+      name: 'image_light',
+      widget: 'image',
+      required: false,
+    },
+    {
+      label: 'Image (Light Theme)',
+      name: 'image_dark',
+      widget: 'image',
+      required: false,
+    }
+  ]
+}
+
 export const Main = {
   label: 'Main',
   name: 'main',
@@ -103,6 +136,7 @@ export const Main = {
     Heading,
     RichEditor,
     Buttons,
+    HubspotFormId
   ],
 }
 
@@ -204,6 +238,13 @@ export const Slider = {
           widget: 'object',
           collapsed: true,
           fields: [
+            {
+              label: 'Automated Source',
+              name: 'automated_source',
+              widget: 'select',
+              required: false,
+              options: ['carbon','nox']
+            },
             {
               label: 'Text',
               name: 'pretext',

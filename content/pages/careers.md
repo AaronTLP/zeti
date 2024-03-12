@@ -11,11 +11,11 @@ blocks:
     main:
       heading: "We’re building something different. "
       rich_editor: >-
-        We’re disrupting traditional auto-finance and giving fleets the
-        resources to transition to zero and ultra-low emission vehicles without
-        hidden fees and huge monthly charges, and in a way that aligns with
-        their cash flow. In order to grow our product, we need a team focused on
-        striving towards a greener future through innovation. 
+        We’re evolving traditional auto-finance and giving fleets the resources
+        to transition to zero and ultra-low-emission vehicles without hidden
+        fees and huge monthly charges, and in a way that aligns with their cash
+        flow. In order to grow our product, we need a team focused on striving
+        towards a greener future through innovation. 
 
 
         We’re hiring talented and creative problem-solvers to do just that.
@@ -26,7 +26,7 @@ blocks:
             url: "#vacancies"
   - type: text_image
     variant: default
-    image: /img/who-is-zeti.jpg
+    image: /img/zeti-team-photos-3-.png
     main:
       heading: Who are Zeti?
       rich_editor: Zeti is a green fintech scaleup that originated in London but now
@@ -148,10 +148,15 @@ blocks:
   - type: vacancies
     intro:
       heading: Current Vacancies
-      rich_editor: >-
-        \
-
-        Unfortunately, we have no vacancies at present, but we’re always on the lookout for talent; so if you're interested in joining our team then please send your resume to careers@zeti.group.
+      rich_editor: At this time, we are not actively hiring, but please stay tuned for
+        exciting opportunities as we continually expand our team. Check back
+        soon for updates on new roles that may align with your skills and
+        interests.
+      buttons:
+        - button:
+            variant: default
+            label: Apply
+            url: mailto:careers@zeti.group
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/ZetiSocialCard.png
 ---

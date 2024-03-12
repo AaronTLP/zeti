@@ -26,14 +26,13 @@ export default function Maps({ data }) {
   
   
   useEffect(() => {
-    fetch('https://zeti.co.uk/api/geoAssets')
+    fetch('https://calm-desert-086adb703.azurestaticapps.net/api/geoAssets')
       .then(response => response.json())
       .then(data => {
         setGeoAssets(data);
         setLoadMap(true);
       })
       .catch(error => {
-        console.error('Error fetching geoAssets:', error);
       });
   }, []);
   

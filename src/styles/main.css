@@ -42,3 +42,13 @@
 @import "blocks/_video.scss";
 @import "blocks/_recent-articles.scss";
 @import "blocks/_404.scss";
+
+#hs-eu-cookie-confirmation {
+    bottom: 32px;
+    top: auto;
+}
+
+.hidden {
+    visibility: hidden;
+    height: 0;
+}

@@ -2,14 +2,14 @@
 id: tG0_fwi1V
 type: post
 layout: post
-title: "Weekly News Roundup: BYD Marches On "
+title: "BYD Marches On "
 permalink: /insights/weekly-news-roundup-04-05-23-byd-marches-on/
-thumbnail: ""
+thumbnail: /img/shutterstock_422055130.jpg
 date: 2023-05-03T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/march.jpg
 ---
 **Overview**
 

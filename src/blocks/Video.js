@@ -9,23 +9,14 @@ export default function Video({ data }) {
     triggerOnce: true,
   });
 
-  // Options
-  const isEmbed = data?.variant === 'Embed';
-  const video = data?.video;
 
   return (
-    <section inview={inView} ref={ref} className={clsx('block block__video', {'in-view': inView})}>
-          { 
-            isEmbed ? (
-              <div className="container" dangerouslySetInnerHTML={{ __html: video }}/>
-            ) : (
-              <div className="container">
-                <video src={video} playsInline controls>
-                  <track default kind="captions" srclang="en" src=""></track>
-                </video>
-              </div>
-            )
-          }
+    <section inview={inView} ref={ref} className={clsx('block block__video', { 'in-view': inView })}>
+      <div className="container">
+        <video src={"/img/What_is_Zeti_Website.mp4"} playsInline controls>
+          <track default kind="captions" srcLang="en" src=""></track>
+        </video>
+      </div>
     </section>
   )
 }

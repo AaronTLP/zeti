@@ -2,14 +2,14 @@
 id: PgLxwyi2E
 type: post
 layout: post
-title: "Weekly News Update: Lucid Dreaming or Time to Wake Up?"
+title: Lucid Dreaming or Time to Wake Up?
 permalink: /insights/weekly-news-update-lucid-dreaming-or-time-to-wake-up/
-thumbnail: /img/08.06.jpg
+thumbnail: /img/irina-lswlewcgpg4-unsplash.jpg
 date: 2023-06-07T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/puppy.jpg
 ---
 **O﻿verview**\
 \

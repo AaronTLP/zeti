@@ -9,6 +9,7 @@ blocks:
     variant: default
     image: /img/hyundai-motor-group-jitbid8yjue-unsplash.jpg
     main:
+      hubspot_contact_form_id: e1d3afe0-34fb-4c5b-8988-f4662666ed38
       heading: test
       rich_editor: t﻿est
       buttons:
@@ -286,6 +287,8 @@ blocks:
             variant: default
             label: test
             url: "#"
+  - type: embed
+    embed: <h1>test</h1>
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/ZetiSocialCard.png
 ---

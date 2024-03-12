@@ -3,7 +3,7 @@ id: Z0BWKZfFv
 type: page
 layout: page-builder
 title: Lenders
-permalink: /financiers/
+permalink: /lenders/
 blocks:
   - type: hero
     variant: default
@@ -107,5 +107,5 @@ blocks:
         rich_editor: If you’re a fleet operator, manufacturer or lender interested in
           learning more about Zeti, please get in touch at hello@zeti.group.
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/ZetiSocialCard.png
 ---

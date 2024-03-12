@@ -16,7 +16,7 @@ blocks:
         legislative requirements, or simply because it’s the right thing to do. 
 
 
-        However, financing is expensive and often disconnected from revenue generation, not to mention the hidden costs and penalties found with traditional leasing. 
+        However, financing is expensive and often disconnected from revenue generation, not to mention the hidden costs and penalties sometimes found with traditional leasing. 
 
 
         Zeti’s pay-per-mile financing optimizes your cash flow and can help secure your profit margin.
@@ -32,8 +32,7 @@ blocks:
           rich_editor: We offer true pay-per-mile vehicle fleet financing; pooled across
             the fleet, rather than per vehicle. There is no penalty for driving
             over your estimated monthly mileage. Our contracts are based on a
-            contracted mileage commitment and allow for greater flexibility in
-            payments than traditional finance.
+            contracted mileage commitment and allow for flexible payments.
           image: /img/electric-car-1-.png
       - list_item:
           heading: "Fully automated billing "
@@ -167,5 +166,5 @@ blocks:
           learning more about Zeti, please get in touch with us via our [contact
           page](https://zeti-tlp-dev.netlify.app/contact-us/).
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/ZetiSocialCard.png
 ---

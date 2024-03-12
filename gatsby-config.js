@@ -78,6 +78,14 @@ module.exports = {
         modulePath: `${__dirname}/cms/cms.js`,
       },
     },
+    {
+      resolve: "gatsby-plugin-hubspot",
+      options: {
+        trackingCode: "26948233",
+        respectDNT: true,
+        productionOnly: true,
+      },
+    },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }

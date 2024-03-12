@@ -2,14 +2,14 @@
 id: lIurYgxBf
 type: post
 layout: post
-title: "Weekly News Roundup: Is Tesla’s Musk No Longer Alluring?"
+title: Is Tesla’s Musk No Longer Alluring?
 permalink: /insights/weekly-news-roundup-27-04-23-is-teslas-musk-no-longer-alluring/
-thumbnail: ""
+thumbnail: /img/felipepelaquim-ywe0ilojsi8-unsplash.jpg
 date: 2023-04-26T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/perfume.jpg
 ---
 **Overview**
 

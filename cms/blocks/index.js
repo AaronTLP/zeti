@@ -1,4 +1,4 @@
-import { VariantField, Image, Video, Intro, Main, List, Locations, Tabs, Slider, Testimonials, Team, Accordions, Features } from '../fields';
+import { VariantField, Image, Video, Intro, Main, List, Locations, Tabs, Slider, Testimonials, Team, Accordions, Features, HeadingImage } from '../fields';
 
 const Config = {
   label: 'Blocks',
@@ -30,6 +30,7 @@ const Config = {
       name: 'text',
       widget: 'object',
       fields: [
+        HeadingImage,
         Main,
       ],
     },
@@ -172,7 +173,7 @@ const Config = {
       widget: 'object',
       summary: '{{fields.title}}',
       fields: [
-        VariantField('default', ['default', 'vertical']),
+        VariantField('default', ['default', 'two-column']),
         Intro,
         Tabs,
       ],
@@ -294,6 +295,23 @@ const Config = {
       fields: [
         Intro,
         Features,
+      ],
+    },
+    {
+      /*
+      *
+      * Embed HTML
+      * 
+      */
+      label: 'Embed HTML',
+      name: 'embed',
+      widget: 'object',
+      fields: [
+        {
+          label: 'Embed HTML',
+          name: 'embed',
+          widget: 'string'
+        }
       ],
     },
     {

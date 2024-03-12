@@ -25,9 +25,8 @@ blocks:
             options
           rich_editor: Fleets want the ability to pay as they drive, rather than fixed
             repayments. Being able to offer your vehicles to be financed per
-            mile provides an attractive alternative financing solution to
-            customers over traditional finance, increasing the chances of you
-            completing the sale.
+            mile provides an attractive alternative financing solution,
+            increasing the chances of you completing the sale.
           image: /img/between.png
       - list_item:
           heading: Transparency
@@ -55,5 +54,5 @@ blocks:
         rich_editor: If you’re a fleet operator, manufacturer or lender interested in
           learning more about Zeti, please get in touch at hello@zeti.group.
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/ZetiSocialCard.png
 ---

@@ -2,14 +2,14 @@
 id: TVOewk3FH
 type: post
 layout: post
-title: "Weekly News Roundup: China Stagnating or Slumping?"
+title: China Stagnating or Slumping?
 permalink: /insights/weekly-news-roundup-23-03-23-china-stagnating-or-slumping/
-thumbnail: ""
+thumbnail: /img/priscilla-du-preez-donefhq7ojs-unsplash.jpg
 date: 2023-03-23T00:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/pug.jpg
 ---
 **Overview**
 

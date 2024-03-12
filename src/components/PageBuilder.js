@@ -21,6 +21,7 @@ import FeatureSlider from '../blocks/FeatureSlider';
 import RecentArticles from '../blocks/RecentArticles';
 import PostsGrid from '../blocks/PostsGrid';
 import Form from '../blocks/Form';
+import Embed from '../blocks/Embed';
 
 
 export default function PageBuilder({ blocks, preview = false }) {
@@ -69,6 +70,8 @@ export default function PageBuilder({ blocks, preview = false }) {
               return <PostsGrid key={i} data={block} preview={preview} />;
             case 'form':
               return <Form key={i} data={block} preview={preview} />;
+            case 'embed':
+              return <Embed key={i} data={block} preview={preview} />;
             
             default:
               return (
@@ -92,6 +95,7 @@ export const query = graphql`
       type
       variant
       columns
+      embed
       intro {
         heading
         rich_editor
@@ -106,11 +110,34 @@ export const query = graphql`
       main {
         heading
         rich_editor
+        hubspot_contact_form_id
         buttons {
           button {
             variant
             label
             url
+          }
+        }
+      }
+      heading_image {
+        image_light {
+          childImageSharp {
+            gatsbyImageData(
+              layout: FULL_WIDTH
+              quality: 72
+              placeholder: DOMINANT_COLOR
+              formats: [AUTO, WEBP, AVIF]
+            )
+          }
+        }
+        image_dark {
+          childImageSharp {
+            gatsbyImageData(
+              layout: FULL_WIDTH
+              quality: 72
+              placeholder: DOMINANT_COLOR
+              formats: [AUTO, WEBP, AVIF]
+            )
           }
         }
       }
@@ -188,6 +215,7 @@ export const query = graphql`
             pretext
             stat
             text
+            automated_source
           }
           list {
             list_item {
@@ -230,7 +258,7 @@ export const query = graphql`
           image {
             childImageSharp {
               gatsbyImageData(
-                width: 800
+                layout: FULL_WIDTH
                 quality: 72
                 placeholder: DOMINANT_COLOR
                 formats: [AUTO, WEBP, AVIF]

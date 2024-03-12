@@ -2,14 +2,14 @@
 id: wUHJuOk_e
 type: post
 layout: post
-title: "Weekly News Roundup: Happy EV(alentines) Day"
+title: Happy EV(alentines) Day
 permalink: /insights/weekly-news-roundup-happy-evalentines-day/
-thumbnail: ""
+thumbnail: /img/febcf556de846b134376ced9c4c0170d.jpg
 date: 2023-02-14T00:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/valentines.jpg
 ---
 **Overview**
 
